@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RealtyStore Test Suite]">
+  <listeners>
+    <listener class-name="com.nic.rs.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="RealtyStore regression Test(failed)">
+    <classes>
+      <class name="com.nic.rs.qa.tests.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="HomePage_verifySearchTest" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.nic.rs.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- RealtyStore regression Test(failed) -->
+</suite> <!-- Failed suite [RealtyStore Test Suite] -->

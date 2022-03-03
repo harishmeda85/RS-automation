@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RS_sanity Test Suite]">
+  <listeners>
+    <listener class-name="com.nic.rs.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="RS_Sanity Test(failed)">
+    <classes>
+      <class name="com.nic.rs.qa.tests.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="searchColumbusTest" invocation-numbers="2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18"/>
+        </methods>
+      </class> <!-- com.nic.rs.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- RS_Sanity Test(failed) -->
+</suite> <!-- Failed suite [RS_sanity Test Suite] -->

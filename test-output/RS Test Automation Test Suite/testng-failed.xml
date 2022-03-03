@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RS Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.nic.rs.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="RS Test Cases(failed)">
+    <classes>
+      <class name="com.nic.rs.qa.tests.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLearnMoreButton"/>
+          <include name="verifyRentToOwnLinkTest"/>
+          <include name="setUp"/>
+          <include name="verifyForclosureLinkTest"/>
+          <include name="verifyReadMoreArticles"/>
+        </methods>
+      </class> <!-- com.nic.rs.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- RS Test Cases(failed) -->
+</suite> <!-- Failed suite [RS Test Automation Test Suite] -->

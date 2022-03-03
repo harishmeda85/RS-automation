@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="RealtyStore Test Suite" verbose="1">
+	<listeners>
+			<listener class-name="com.nic.rs.qa.ExtentReportListener.ExtentReportListener" />
+		</listeners>
+
+	<test name="RealtyStore regression Test">
+		<classes>
+			<class name="com.nic.rs.qa.tests.HomePageTest"></class> 
+			
+			
+		</classes>
+	</test>
+</suite>
